@@ -5,9 +5,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <link href="/style/style.css" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link href="/style/style.css" rel="stylesheet">
 </head>
 <body>
   <nav class="navbar navbar-default custom-navbar">
@@ -23,29 +23,31 @@
       </ul>
     </div>
   </nav>
-  </nav>
   <div class="container">
     <img src="../assets/background.png" alt="Snow" style="width:100%;">
     <div class="centered">  <h3>Welcome to NPLife - Your School Life Companion</h3>
-      <p>Explore the exciting world of school life with NPLife. We bring you a unique blend of features to make your educational journey memorable and enjoyable.</p>
+      <span style="background-color: antiquewhite;">Explore the exciting world of school life with NPLife. We bring you a unique blend of features to make your educational journey memorable and enjoyable.</span>
     
-      <h4>Featured Content</h4>
+      <h4 class="stitle">Featured Content</h4>
       <ul>
         <li>Discover the latest trends in Front-end Development (FED) and stay updated with cutting-edge technologies.</li>
         <li>Unleash your programming skills in the Programming (PRG) zone. Participate in coding challenges and connect with fellow coders.</li>
         <li>Immerse yourself in the world of Information Systems (IS Core). Explore the core concepts and technologies shaping the digital landscape.</li>
       </ul>
     
-      <h4>School Life Chronicles</h4>
+      <h4 class="stitle">School Life Chronicles</h4>
       <p>Read fascinating stories and anecdotes from students who've navigated the challenges and triumphs of school life. From exam stress to memorable events, we've got it all covered.</p>
     
-      <h4>Interactive Quizzes</h4>
+      <h4 class="stitle">Interactive Quizzes</h4>
       <p>Test your knowledge with our interactive quizzes on a variety of subjects. Earn badges and showcase your academic prowess to the NPLife community.</p>
     
-      <h4>Community Forum</h4>
+      <h4 class="stitle">Community Forum</h4>
       <p>Engage in discussions with fellow students, share study tips, and seek advice on school-related matters. The NPLife community is here to support you throughout your academic journey.</p>
     </div>
   </div>
-
+  <div>   
+    <div id="result"></div>
+  </div>
+  <script src="../script/blog.js"></script>
 </body>
 </html>
